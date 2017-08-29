@@ -2,7 +2,7 @@
 
 The following describes the process of provisioning a local environment to run docker applications in a vm (vagrant) environment. This project documents the installation of virtualbox / vagrant and post installation of both docker and nodejs. We experiment with using nodejs to load up and run new docker images (outside of swarm/stacks) and investigate the level of monitoring and control available via docker. These tests were run against a linux mint 18.1 (Xenial) installation (Ubuntu 16.04 LTS) and trailed hashicorp/precise64, ubuntu/trusty64 and ubuntu/xenial64 vagrant boxes (images).
 
-### install virtualBox / vagrant
+### install virtualbox / vagrant (host)
 
 The following describes installing the vagrant / virtualbox on the host system. 
 
